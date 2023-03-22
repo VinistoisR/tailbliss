@@ -12,6 +12,7 @@ command = "hugo --gc --minify --enableGitInfo"
 
 [context.split1.environment]
 HUGO_VERSION = "0.105.0"
+NODE_VERSION = "18.15.0"
 HUGO_ENV = "production"
 
 [context.deploy-preview]
